@@ -273,9 +273,3 @@ $('.modal_call').click(function(){
 		$('#VACANCY').val(fieldValue);
 	console.log(fieldValue);
 });
-
-
-
-$('.questions_block .ah2').click(function(){
-	$(this).toggleClass('active').siblings('p').slideToggle();
-});
