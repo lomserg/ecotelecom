@@ -825,18 +825,13 @@ box-shadow:         0px 2px 5px 0px rgba(0, 0, 0, 0.43);}
 .connect .item .text-block{
 	display: flex;
 }
-.connect .item .text-block .number{
-	font-family: 'Conv_Gilroy';
-	font-weight: 900;
-	font-size: 100px;
-	color: #45a5f0;
-	line-height: 87px;
-	min-width: 60px;
-}
+
 .connect .item .text-block .text{
 	font-size: 17px;
 	line-height: 28px;
 	color: #ffffff;
+	text-align: center;
+	padding: 0 10%;
 }
 .connect .item .text-block .text a{
 	color: #ffffff;

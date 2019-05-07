@@ -67,14 +67,28 @@
 	.advantages{padding-bottom:30px;}
 	.form_block .inputbox{font-size:18px; line-height:21px;}
 	.form_block .ah2{font-size:20px; line-height:23px; margin-bottom:30px;}
-	.tarif_block .shadow{padding-bottom:100px; height:auto;}
-	.tarif_block .shadow .button{width:200px; margin-left:-100px; font-size:20px; line-height:50px; left:50%;}
-	.tarif_block .shadow ul li{font-size:18px; line-height:25px;}
-	.tarif_block .shadow ul li span{width:50px;}
+	.tarif_block .item .shadow{padding-bottom:100px; height:auto;
+		min-height: 435px;}
+	.tarif_block .shadow .button {
+		width: 78%;
+		left: 11%;
+		font-size: 14px;
+		line-height: 43px;
+		bottom: 25px;
+	}
+	.tarif_block .shadow .more_link{
+		font-size: 16px;
+		bottom: 81px;}
+	.tarif_block .shadow ul li{font-size:14px; line-height:18px; padding-left: 40px;}
+	.tarif_block .shadow ul li span{width:40px;}
+	.tarif_block .shadow ul li span img{height: 15px;}
+	.tarif_block .shadow ul li + li.no_icon {
+		margin-top: 12px;
+	}
 	.tarif_block{padding-top:30px; padding-bottom:30px; background-position:center 150px; background-size:auto 395px;}
 	.tarif_block .ah2{font-size:20px; line-height:23px; margin-bottom:15px;}
 	.tarif_block{background:transparent;}
-	.tarif_block .block{width:auto; max-width:360px; margin-left:auto; margin-right:auto; margin-bottom:30px;}
+	.tarif_block .block{width:auto; max-width:285px; margin-left:auto; margin-right:auto; margin-bottom:30px;}
 	.tarif_block .tb, .tarif_block .tbc{display:block;}
 	.tarif_block:before{height:920px;}
 	.table_block .block table tr:nth-child(2) th{font-size:18px; white-space:nowrap; padding-left:5px; padding-right:5px;}
@@ -146,15 +160,31 @@
 	}
 	.tarif_block .item .tb{display: block;}
 	.tarif_block .shadow ul {
-		margin-right: 30px;
-		margin-left: 47px;
+		margin-right: 20px;
+		margin-left: 20px;
 	}
 	.tarif_block .item2 .shadow{
-		min-height: 385px;
+		min-height: 320px;
 	}
 	.main_banner .block .akcia_text {
 		font-size: 30px;
 		line-height: 37px;
+	}
+	.tarif_block .shadow .ah3{
+		font-size: 14px;
+		margin-bottom: 18px;
+	}
+	.tarif_block .shadow .ah3 > div{
+		height: 96px;
+		padding-top: 17px;
+	}
+
+	.tarif_block .shadow .price{
+		font-size: 22px;
+		top: 47px;
+	}
+	.tarif_block .shadow .price b{
+		font-size: 34px;
 	}
 }
 
@@ -225,7 +255,7 @@
 	.equipment_block .block .hide{font-size:14px; line-height:17px;}
 	.equipment_block .block .tit span, .equipment_block .block .left_block .more_button{font-size:12px;}
 	.free_form form .inputbox{font-size:16px; line-height:19px;}
-	.tarif_block .shadow ul li{font-size:20px;}
+
 	.tarif_block .dt{margin-bottom:30px;}
 	.tarif_block .dt li{font-size:18px; line-height:45px; width:50%;}
 	.example_block, .form_block, .questions_block{padding-top:40px; padding-bottom:40px; margin-top:0;}
@@ -310,7 +340,7 @@
 	}
 	.connect .item{
 		width: 100%;
-		flex-direction: row-reverse !important;
+		flex-direction: row !important;
 		justify-content: space-between;
 		align-items: center;
 	}
@@ -320,15 +350,20 @@
 	.connect .item .img-block {
 		margin-bottom: 0px !important;
 		margin-top: 0px !important;
-		margin-left: 20px;
+		margin-right: 20px;
 		width: 64px;
 		min-width: 64px;
 	}
 	.connect .item .text-block .number{
 		display: none;
 	}
+	.connect .item .text-block{
+		flex-grow: 1;
+	}
 	.connect .item .text-block .text{
 		margin-left: 0;
+		padding: 0;
+		text-align: left;
 	}
     .main_banner .block .mobile-use{
         font-size: 20px;
@@ -359,25 +394,18 @@
 	.equipment_block .block .image_block{margin-left: auto; margin-right: auto;}
 	.main_banner .block .yellow{max-width:none;}
 	.main_banner .button{float:none;}
-	.tarif_block .shadow ul li {
-		margin-left: 0px;
-		font-size: 18px;
-	}
 	.tarif_block .shadow ul {
 	    margin-right: 20px;
 	    margin-left: 20px;
 	}
-	.tarif_block .shadow ul li + li.no_icon {
-	    margin-top: 20px;
+	.connect .item .text-block .text {
+		font-size: 15px;
+		line-height: 23px;
 	}
 }
 @media screen and (max-width:310px){
 	.tarif_block .shadow ul {
 	    margin-right: 10px;
 	    margin-left: 10px;
-	}
-	.tarif_block .shadow ul li {
-	    font-size: 16px;
-	    line-height: 20px;
 	}
 }
